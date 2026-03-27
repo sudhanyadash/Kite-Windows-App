@@ -1,13 +1,32 @@
 {
   "name": "kite-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A high-performance multi-pane desktop shell for Zerodha Kite.",
+  "author": "Sudhanya Dash",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build-win": "npm run build && electron-builder"
+  },
+  "build": {
+    "appId": "com.kite.windows.app",
+    "productName": "Kite Windows",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist",
+      "dist-electron"
+    ],
+    "win": {
+      "target": {
+        "target": "portable"
+      }
+    }
   },
   "dependencies": {
     "clsx": "^2.1.1",
