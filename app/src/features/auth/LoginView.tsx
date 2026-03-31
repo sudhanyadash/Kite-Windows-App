@@ -41,12 +41,12 @@ export const LoginView = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen w-screen bg-[#F8F9FA] overflow-hidden p-4">
-      {/* Official Kite Logo above the card */}
-      <div className="mb-10 animate-fade-in">
+      {/* Official High-Res Logo */}
+      <div className="mb-12 animate-fade-in">
         <img 
-          src="https://kite.zerodha.com/static/images/kite-logo.svg" 
+          src="/kite-logo.png" 
           alt="Kite Logo" 
-          className="h-12 w-auto filter opacity-90 drop-shadow-sm" 
+          className="h-24 w-auto drop-shadow-xl" 
         />
       </div>
 

@@ -10256,7 +10256,8 @@ process.env.VITE_PUBLIC = Mo ? a.join(process.env.APP_ROOT, "public") : Po;
 var Fo = null, Io = new Ao();
 function Lo() {
 	Fo = new t({
-		icon: a.join(process.env.VITE_PUBLIC, "icon.png"),
+		title: "Kite",
+		icon: a.join(process.env.APP_ROOT, "assets/icon.png"),
 		width: 1280,
 		height: 800,
 		minWidth: 1024,

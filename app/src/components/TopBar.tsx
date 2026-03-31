@@ -14,13 +14,12 @@ const TopBar = () => {
 
   return (
     <div className="h-14 bg-white border-b border-kite-border flex items-center justify-between px-6 shrink-0 relative z-[100] shadow-sm">
-      {/* Official Kite Logo */}
       <div className="flex items-center">
         <div className="flex items-center space-x-2 mr-6 h-full pb-1">
           <img 
-            src="https://kite.zerodha.com/static/images/kite-logo.svg" 
+            src="/kite-logo.png" 
             alt="Kite Logo" 
-            className="h-5 w-auto" 
+            className="h-7 w-auto drop-shadow-sm transition-transform hover:scale-105" 
           />
         </div>
 

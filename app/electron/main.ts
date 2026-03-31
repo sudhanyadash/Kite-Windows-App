@@ -19,7 +19,8 @@ const store = new Store()
 
 function createWindow() {
   win = new BrowserWindow({
-    icon: path.join(process.env.VITE_PUBLIC as string, 'icon.png'),
+    title: 'Kite',
+    icon: path.join(process.env.APP_ROOT as string, 'assets/icon.png'),
     width: 1280,
     height: 800,
     minWidth: 1024,
