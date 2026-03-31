@@ -1,10 +1,8 @@
 import { app, BrowserWindow, ipcMain } from 'electron'
-import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import Store from 'electron-store'
 
-const require = createRequire(import.meta.url)
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 process.env.APP_ROOT = path.join(__dirname, '..')
@@ -21,7 +19,7 @@ const store = new Store()
 
 function createWindow() {
   win = new BrowserWindow({
-    icon: path.join(process.env.VITE_PUBLIC, 'favicon.svg'),
+    icon: path.join(process.env.VITE_PUBLIC as string, 'icon.png'),
     width: 1280,
     height: 800,
     minWidth: 1024,
@@ -35,7 +33,7 @@ function createWindow() {
 
   // IPC Handlers for layout
   ipcMain.handle('layout:load', () => store.get('layout_v1'))
-  ipcMain.invoke('layout:save', (_, layout) => store.set('layout_v1', layout))
+  ipcMain.on('layout:save', (_: any, layout: any) => store.set('layout_v1', layout))
 
   if (VITE_DEV_SERVER_URL) {
     win.loadURL(VITE_DEV_SERVER_URL)

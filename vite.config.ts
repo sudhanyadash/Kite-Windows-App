@@ -9,10 +9,20 @@ export default defineConfig({
     react(),
     electron({
       main: {
-        entry: 'electron/main.ts',
+        entry: 'app/electron/main.ts',
+        vite: {
+          build: {
+            outDir: 'dist-electron',
+          },
+        },
       },
       preload: {
-        input: path.join(__dirname, 'electron/preload.ts'),
+        input: path.join(__dirname, 'app/electron/preload.ts'),
+        vite: {
+          build: {
+            outDir: 'dist-electron',
+          },
+        },
       },
     }),
   ],

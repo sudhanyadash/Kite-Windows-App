@@ -7,8 +7,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "build": "vite build",
+    "lint": "eslint app",
     "preview": "vite preview",
     "build-win": "npm run build && electron-builder"
   },
@@ -16,13 +16,14 @@
     "appId": "com.kite.windows.app",
     "productName": "Kite Windows",
     "directories": {
-      "output": "release"
+      "output": "Release"
     },
     "files": [
       "dist",
       "dist-electron"
     ],
     "win": {
+      "icon": "public/icon.png",
       "target": {
         "target": "portable"
       }

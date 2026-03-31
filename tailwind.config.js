@@ -2,21 +2,24 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./app/src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        'kite-pane-bg': '#0F172A',
-        'kite-pane-border': '#1E293B',
-        'kite-pane-border-active': '#1A56DB',
-        'kite-divider-rest': '#1E293B',
-        'kite-divider-hover': '#1A56DB',
-        'kite-bookmark-card-bg': '#1E293B',
-        'kite-bookmark-card-hover': '#2D3748',
-        'kite-text-primary': '#F1F5F9',
-        'kite-text-secondary': '#94A3B8',
-      }
+        'kite-orange': '#F37021',
+        'kite-orange-hover': '#E66010',
+        'kite-orange-light': '#FFF5EE',
+        'kite-bg': '#FFFFFF',
+        'kite-bg-secondary': '#F8F9FA',
+        'kite-text-primary': '#444444',
+        'kite-text-secondary': '#666666',
+        'kite-border': '#EEEEEE',
+        'kite-border-active': '#F37021',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
     },
   },
   plugins: [],
