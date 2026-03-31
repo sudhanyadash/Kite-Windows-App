@@ -1,1 +1,0 @@
-let e=require(`electron`);window.ipcRenderer=e.ipcRenderer;

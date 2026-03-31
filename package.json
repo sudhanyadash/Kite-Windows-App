@@ -16,7 +16,7 @@
     "appId": "com.kite.windows.app",
     "productName": "Kite Windows",
     "directories": {
-      "output": "Release"
+      "output": "releases"
     },
     "files": [
       "dist",

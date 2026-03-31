@@ -1,5 +1,6 @@
 import { useRef, useEffect } from 'react'
 import { useLayoutStore } from '../../store/layoutSlice'
+import kiteLogo from '../../assets/kite-logo.png'
 
 export const LoginView = () => {
   const { setLoggedIn, updatePaneUrl, activeTabId, tabs } = useLayoutStore()
@@ -41,10 +42,9 @@ export const LoginView = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen w-screen bg-[#F8F9FA] overflow-hidden p-4">
-      {/* Official High-Res Logo */}
       <div className="mb-12 animate-fade-in">
         <img 
-          src="/kite-logo.png" 
+          src={kiteLogo}
           alt="Kite Logo" 
           className="h-24 w-auto drop-shadow-xl" 
         />

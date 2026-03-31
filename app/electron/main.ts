@@ -39,8 +39,7 @@ function createWindow() {
   if (VITE_DEV_SERVER_URL) {
     win.loadURL(VITE_DEV_SERVER_URL)
   } else {
-    // win.loadFile(path.join(RENDERER_DIST, 'index.html'))
-    win.loadFile(path.join(__dirname, '../dist/index.html'))
+    win.loadFile(path.join(RENDERER_DIST, 'index.html'))
   }
 }
 

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Bookmark, ChevronDown, Trash2, Clock, MapPin, Search } from 'lucide-react'
 import { useLayoutStore } from '../store/layoutSlice'
+import kiteLogo from '../assets/kite-logo.png'
 
 const TopBar = () => {
   const { bookmarks, removeBookmark, loadBookmark, addBookmark, activeTabId, tabs } = useLayoutStore()
@@ -17,7 +18,7 @@ const TopBar = () => {
       <div className="flex items-center">
         <div className="flex items-center space-x-2 mr-6 h-full pb-1">
           <img 
-            src="/kite-logo.png" 
+            src={kiteLogo} 
             alt="Kite Logo" 
             className="h-7 w-auto drop-shadow-sm transition-transform hover:scale-105" 
           />
