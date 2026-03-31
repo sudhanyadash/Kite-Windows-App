@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/GyaneshSamanta/Kite-Windows-App/releases">
-    <img src="https://img.shields.io/github/downloads/GyaneshSamanta/Kite-Windows-App/total?style=for-the-badge&color=orange&logo=github" alt="Downloads" />
+  <a href="https://github.com/sudhanyadash/Kite-Windows-App/releases">
+    <img src="https://img.shields.io/github/downloads/sudhanyadash/Kite-Windows-App/total?style=for-the-badge&color=orange&logo=github" alt="Downloads" />
   </a>
-  <a href="https://github.com/GyaneshSamanta/Kite-Windows-App/releases/latest">
-    <img src="https://img.shields.io/github/v/release/GyaneshSamanta/Kite-Windows-App?style=for-the-badge&color=brightgreen&logo=rocket" alt="Latest Release" />
+  <a href="https://github.com/sudhanyadash/Kite-Windows-App/releases/latest">
+    <img src="https://img.shields.io/github/v/release/sudhanyadash/Kite-Windows-App?style=for-the-badge&color=brightgreen&logo=rocket" alt="Latest Release" />
   </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/GyaneshSamanta/Kite-Windows-App?style=for-the-badge&color=blue" alt="License" />
+    <img src="https://img.shields.io/github/license/sudhanyadash/Kite-Windows-App?style=for-the-badge&color=blue" alt="License" />
   </a>
 </p>
 
@@ -51,7 +51,7 @@ Built with **Electron**, **React**, and **Vite**, it delivers a seamless, native
 ## 🚀 Getting Started
 
 ### **For Users**
-1. 📥 **Download**: Grab the latest `Kite Windows.exe` from the [Releases](https://github.com/GyaneshSamanta/Kite-Windows-App/releases) page.
+1. 📥 **Download**: Grab the latest `Kite Windows.exe` from the [Releases](https://github.com/sudhanyadash/Kite-Windows-App/releases) page.
 2. ⚡ **Run**: Double-click the portable executable. No installation needed!
 3. 🔑 **Login**: Securely log in with your Zerodha Kite credentials and start building your custom trading desk.
 
@@ -99,5 +99,5 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 ---
 
 <p align="center">
-  Built with ❤️ for Traders by <a href="https://github.com/GyaneshSamanta">Gyanesh Samanta</a>
+  Built with ❤️ for Traders by <a href="https://github.com/sudhanyadash">Sudhanya Dash</a>
 </p>
