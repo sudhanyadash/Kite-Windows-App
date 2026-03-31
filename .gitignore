@@ -11,7 +11,9 @@ node_modules
 dist
 dist-electron
 dist-ssr
-release
+releases/*
+!releases/.gitkeep
+!releases/README.md
 *.local
 
 # Editor directories and files
