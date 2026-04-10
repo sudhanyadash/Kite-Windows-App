@@ -18,7 +18,8 @@ export function ShortcutOverlay({ onClose, open }: Props) {
                 </h2>
 
                 <ul className="space-y-2 text-sm">
-                    <li><b>Ctrl + / OR ?</b> — Open help</li>
+                    <li><b>Ctrl + /</b> — Open help</li>
+                    <li><b>?</b> — Open help</li>
                     <li><b>Esc</b> — Close</li>
                     <li><b>Ctrl + S</b> — Save (placeholder)</li>
                     <li><b>Ctrl + Z</b> — Undo (placeholder)</li>
